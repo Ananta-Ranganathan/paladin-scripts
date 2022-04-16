@@ -52,5 +52,5 @@
 # col = db["tickers"]
 
 # for x in stocks:
-#     col.insert_one(stocks[x])
+#     col.insert_one({"name":x, "scores": stocks[x]})
 #     # print(stocks[x])
